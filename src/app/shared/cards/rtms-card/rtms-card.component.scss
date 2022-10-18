@@ -1,0 +1,14 @@
+.panel-heading ~ .panel-content {
+    border-top: solid 1px #e5e5e5;
+}
+
+.panel.autoHeight{
+    max-height: none;
+    height: calc(100vh - 193px);
+}
+
+.citation {
+    position: absolute !important;
+    bottom: -2px !important;
+    right: 2px !important;
+}
